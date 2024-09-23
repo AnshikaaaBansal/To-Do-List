@@ -16,7 +16,7 @@ function addTodo() {
     // Create a new list item (li) for the task
     const li = document.createElement('li');
     li.innerHTML = `
-        <span><img src="task-icon.png" alt="Task Icon"> ${taskText}</span>
+        <span><img src="To-Do List/task-icon.png" alt="Task Icon"> ${taskText}</span>
         <button class="delete-btn">Delete</button>
     `;
 
